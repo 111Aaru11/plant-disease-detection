@@ -1,0 +1,15 @@
+names:
+- bacterial_spot
+- late_blight
+- leaf_mold
+- septoria_leaf_spot
+nc: 4
+roboflow:
+  license: CC BY 4.0
+  project: plant-disease-detection-8nlnz
+  url: https://universe.roboflow.com/new-nruea/plant-disease-detection-8nlnz/dataset/2
+  version: 2
+  workspace: new-nruea
+test: ../test/images
+train: ../train/images
+val: ../valid/images
