@@ -24,7 +24,7 @@ except Exception:
     GEMINI_AVAILABLE = False
 
 # Configure Gemini client
-GOOGLE_API_KEY = "AIzaSyBk-LJ4Xs4GrUnxi_0aQ0JmnD9p_TO2_x8"
+GOOGLE_API_KEY = ""
 client = None
 
 if GOOGLE_API_KEY and GEMINI_AVAILABLE:
